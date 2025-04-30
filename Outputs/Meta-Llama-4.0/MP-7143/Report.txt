@@ -1,0 +1,33 @@
+===== Coverage Report =====
+
+This just worked straight from the original prompt. 
+We had no visible hallucinations and therefore had no reason to go and change anything
+
+===== Description =====
+
+This just worked straight from the original prompt. 
+We had no visible hallucinations and therefore had no reason to go and change anything
+===== Gap =====
+
+This just worked straight from the original prompt. 
+We had no visible hallucinations and therefore had no reason to go and change anything
+
+===== Property =====
+
+This just worked straight from the original prompt. 
+We had no visible hallucinations and therefore had no reason to go and change anything
+
+===== Requirements =====
+
+This just worked straight from the original prompt. 
+We had no visible hallucinations and therefore had no reason to go and change anything
+
+===== Testcase =====
+
+This just worked straight from the original prompt. 
+We had no visible hallucinations and therefore had no reason to go and change anything
+
+===== TraceMetrix =====
+
+This just worked straight from the original prompt. 
+We had no visible hallucinations and therefore had no reason to go and change anything
