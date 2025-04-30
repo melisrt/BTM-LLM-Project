@@ -1,0 +1,9 @@
+Generate a requirements table for MP-XXXX following these steps:
+1. Extract ALL requirements from the specification.
+2. Include the exact text from the specification for each requirement
+3. Number the requirements sequentially (REQ-001, REQ-002, etc.)
+4. Check for missing requirements and add them to the table.
+5. Format each requirement with its exact source text from the specification
+
+Use the following HTML template:
+<paste requirements template>

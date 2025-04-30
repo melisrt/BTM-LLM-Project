@@ -1,0 +1,15 @@
+Generate a coverage report for MP-XXXX following these steps:
+1. Analyze the coverage of all requirements by the generated test cases
+2. Show the mapping between test cases and requirements
+3. Include a coverage summary showing:
+   - Fully covered requirements
+   - Partially covered requirements
+   - Not covered requirements
+4. For each requirement, provide:
+   - Source text from specification
+   - Test cases that cover it
+   - Coverage status (Fully/Partially/Not Covered)
+5. Include recommendations for improving coverage where gaps exist
+
+Use this format:
+<paste coverage report template>

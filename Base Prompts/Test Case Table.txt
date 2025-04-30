@@ -1,0 +1,24 @@
+<specification>
+paste the specification here
+</specification>
+
+Use your knowledge base analyze the provided specification document and follow the steps:
+1.Extract and identify all required test cases from requirements. 
+2.Fully document ALL of the test cases even if it's long.
+3.Include ALL test cases identified from the specification.
+4.Do not condense or summarize test cases.
+5.Do not skip or omit any test cases.
+6.Maintain clear traceability to requirements.
+7.Be organized in a logical and consistent manner.
+8.Keep sequential numbering.
+9.Include edge cases and error handling scenarios. 
+10.Assign appropriate priority levels (High/Medium/Low). 
+11.Determine test types (Functional/Integration/System/Performance/Security). 
+12.Map to relevant ISO categories
+13.Use the appropriate HTML formatting as a code in the code section and not as a text reply. 
+14.Include coverage status modals for each test case.
+15.Ensure traceability to requirements.
+16.Provide a popup/modal for evidence called 'View Evidence' for each test case.
+17.Each test case evidence must include: "Source Document: [document name] Location: [section/page] Requirement Text: '[exact quote from specification]' 
+Traceability: [explanation of how test case maps to this requirement]" . 
+18.Identify any gaps in test coverage.
