@@ -1,0 +1,39 @@
+===== Coverage Report =====
+
+This just worked straight from the original prompt.  
+We had no visible hallucinations and therefore had no reason to go and change anything.
+
+===== Description =====
+
+This just worked straight from the original prompt.  
+We had no visible hallucinations and therefore had no reason to go and change anything.
+
+===== Gap =====
+
+This just worked straight from the original prompt.  
+We had no visible hallucinations and therefore had no reason to go and change anything.
+
+===== Property =====
+
+This just worked straight from the original prompt.  
+We had no visible hallucinations and therefore had no reason to go and change anything.
+
+===== Requirements =====
+
+We had an issue with some missing requirements, so we had to remind it to look for any missing data. The prompt looked something like this: "Are you missing some requirements?" 
+And this worked.  
+Next, we had an issue with the produced prompt not quoting the original report. To fix this, we simply reminded the AI of the original request (something like "add direct quotes"). 
+And this solved our issue.
+
+===== Testcase =====
+
+When we used the original prompt, the AI skipped almost half of the test cases due to the length of the report.  
+We had to change the prompt to ensure that all test cases were covered.  
+We then had the issue of the AI freezing partway through because it was trying to write code as a text block rather than a code block.  
+We had to specify that the code should be written in a code block, which solved this problem.  
+Next, we had an issue with pop-ups. It didn't pick up on our request in the initial prompt, so we had to re-state it.
+
+===== TraceMetrix =====
+
+We had too many test cases, and so the LLM wasn't putting all the test cases in the matrix. 
+So we simply specified that "all" the test cases should be included. This solved our problem.
