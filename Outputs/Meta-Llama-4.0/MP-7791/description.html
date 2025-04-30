@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Case: TC-001 Details</title>
+    <style>
+        .detailed-descriptions {
+            margin-top: 50px;
+            padding: 20px;
+        }
+        .test-case-detail {
+            margin-bottom: 40px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .test-case-detail h3 {
+            color: #333;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #007bff;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="detailed-descriptions">
+        <div id="TC-001" class="test-case-detail">
+            <h3>Test Case: Searching for records in the Recipients field</h3>
+            <div class="test-case">
+                <h4>Test Case ID</h4>
+                <p>TC-001</p>
+    
+                <h4>Test Scenario</h4>
+                <p>Verify that the search functionality in the Recipients field returns results containing the keyword and groups them by record type/main record.</p>
+    
+                <h4>Test Entry Requirement / Prerequisites</h4>
+                <ul>
+                    <li>User is logged in to the Mojo App</li>
+                    <li>Notifications widget is added to the Property Dashboard</li>
+                    <li>Test data: keyword/phrase to search for (e.g. "East")</li>
+                </ul>
+    
+                <h4>Test Tools</h4>
+                <ul>
+                    <li>N/A</li>
+                </ul>
+    
+                <h4>Test Conditions</h4>
+                <ul>
+                    <li>N/A</li>
+                </ul>
+    
+                <h4>Test Environment</h4>
+                <ul>
+                    <li>Mojo App</li>
+                    <li>Property Dashboard with Notifications widget</li>
+                </ul>
+    
+                <h4>Code Deployment Status</h4>
+                <ul>
+                    <li>Current deployment state: latest version</li>
+                </ul>
+    
+                <h4>Test Data Validation</h4>
+                <ul>
+                    <li>Verify that the search results contain the keyword/phrase</li>
+                    <li>Verify that the search results are grouped by record type/main record</li>
+                </ul>
+    
+                <h4>Test Data</h4>
+                <ul>
+                    <li>Keyword/phrase to search for: "East"</li>
+                    <li>Expected search results: records containing the keyword "East" grouped by record type/main record</li>
+                </ul>
+    
+                <h4>Browser / Device</h4>
+                <ul>
+                    <li>Chrome v120.0.6099.129</li>
+                    <li>Edge v120.0.2210.91</li>
+                    <li>Firefox v121.0</li>
+                </ul>
+    
+                <h4>Test Steps</h4>
+                <ol>
+                    <li>Open the My Dashboards screen by either using the burger menu on left hand side or the shortcut in the top right corner, under the database / user name dropdown</li>
+                    <li>Navigate to the Property lister page and select a Property record</li>
+                    <li>If the Property Dashboard doesn’t have the Notifications widget, add it using the widget selector</li>
+                    <li>On the Notifications widget click on the Create button</li>
+                    <li>On the pop-up, click onto the Recipients field and type in a keyword/phrase (e.g. "East")</li>
+                </ol>
+    
+                <h4>Expected Outcome</h4>
+                <ul>
+                    <li>The list returns results containing the keyword/phrase</li>
+                    <li>The search results are grouped by record type/main record</li>
+                </ul>
+    
+                <h4>Expected Results</h4>
+                <ul>
+                    <li>Verify that the search results contain the keyword "East"</li>
+                    <li>Verify that the search results are grouped by record type/main record</li>
+                </ul>
+    
+                <h4>Risk Coverage</h4>
+                <ul>
+                    <li>Search functionality not working as expected</li>
+                    <li>Search results not grouped correctly</li>
+                </ul>
+    
+                <h4>Actual Outcome</h4>
+                <ul>
+                    <li>[To be run after test execution]</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

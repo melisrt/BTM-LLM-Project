@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coverage Report for MP-7791</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        .table-container {
+            margin: 20px 0;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background-color: #f4f4f4;
+            position: sticky;
+            top: 0;
+        }
+        .source-text {
+            background-color: #f8f9fa;
+            padding: 8px;
+            border-left: 3px solid #007bff;
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+        .coverage-good {
+            background-color: #e6ffe6;
+            color: #006600;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        .coverage-partial {
+            background-color: #fff8e6;
+            color: #cc7700;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        .coverage-gap {
+            background-color: #ffe6e6;
+            color: #cc0000;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        .req-id {
+            font-weight: bold;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .summary-container {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+        .test-case-badge {
+            display: inline-block;
+            background-color: #e6f2ff;
+            color: #0066cc;
+            padding: 2px 6px;
+            border-radius: 3px;
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Coverage Report for MP-7791</h1>
+    
+    <div class="summary-container">
+        <h3>Coverage Summary</h3>
+        <ul>
+            <li><span class="coverage-good">Fully Covered: 4</span> - Requirements that are fully addressed by test cases with direct traceability</li>
+            <li><span class="coverage-partial">Partially Covered: 0</span> - Requirements with some test coverage but potential gaps</li>
+            <li><span class="coverage-gap">Not Covered: 1</span> - Requirements without adequate test coverage</li>
+            <li>Total Requirements: 5</li>
+        </ul>
+    </div>
+    
+    <h2>Detailed Traceability Analysis</h2>
+    
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Req ID</th>
+                    <th>Requirement Description</th>
+                    <th>Source Text</th>
+                    <th>Test Cases</th>
+                    <th>Coverage Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="req-id">REQ-001</td>
+                    <td>The search functionality in the Recipients field should return results containing the keyword/phrase.</td>
+                    <td>
+                        <div class="source-text">
+                            "The search should return all records containing that word"
+                        </div>
+                    </td>
+                    <td>
+                        <span class="test-case-badge">TC-001</span> Searching for records in the Recipients field
+                    </td>
+                    <td><span class="coverage-good">Fully Covered</span></td>
+                </tr>
+                <tr>
+                    <td class="req-id">REQ-002</td>
+                    <td>The search results should be grouped by record type/main record.</td>
+                    <td>
+                        <div class="source-text">
+                            "The list returns results containing the key word and groups them by record type/main record"
+                        </div>
+                    </td>
+                    <td>
+                        <span class="test-case-badge">TC-001</span> Searching for records in the Recipients field
+                    </td>
+                    <td><span class="coverage-good">Fully Covered</span></td>
+                </tr>
+                <tr>
+                    <td class="req-id">REQ-003</td>
+                    <td>Selected records should be added to the Recipients field.</td>
+                    <td>
+                        <div class="source-text">
+                            "Selected records should be added to the Recipients fields"
+                        </div>
+                    </td>
+                    <td>
+                        <span class="test-case-badge">TC-002</span> Selecting some of the records from the search results
+                    </td>
+                    <td><span class="coverage-good">Fully Covered</span></td>
+                </tr>
+                <tr>
+                    <td class="req-id">REQ-004</td>
+                    <td>All records should be added to the Recipients field when the "Select all" option is chosen.</td>
+                    <td>
+                        <div class="source-text">
+                            "All records should pull through to the Recipients field"
+                        </div>
+                    </td>
+                    <td>
+                        <span class="test-case-badge">TC-003</span> Selecting all records from the search results
+                    </td>
+                    <td><span class="coverage-good">Fully Covered</span></td>
+                </tr>
+                <tr>
+                    <td class="req-id">REQ-005</td>
+                    <td>The search functionality should return both matching groups and individual records.</td>
+                    <td>
+                        <div class="source-text">
+                            "The search results should return both matching groups (i.e. for 'East': all Tenants under Eastfield shopping centre) and any individuals (i.e. for 'East' (e.g.) Eastman Estate Agents)"
+                        </div>
+                    </td>
+                    <td>
+                        <span class="test-case-badge">TC-004</span> Searching for groups and individual tenants
+                    </td>
+                    <td><span class="coverage-gap">Not Covered</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <h2>Recommendations</h2>
+    
+    <div class="summary-container">
+        <ol>
+            <li>Create a test case to verify that the search functionality returns both matching groups and individual records (REQ-005).</li>
+        </ol>
+    </div>
+</body>
+</html>
