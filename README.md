@@ -9,9 +9,9 @@ The basic structure is below, you are encouraged to change the prompts as you se
 ## Test Case Generation Steps
 
 1. Run Project Initialization Prompt
-   - Sets up the initial project structure
-   - Establishes baseline configuration
-
+   - From Templates, run Project initialization.html
+   - This sets up the llm to output things in a basic structure 
+   
 2. Generate Test Case Table
    - Add one specification at a time
    - Use Test Case Table prompt
