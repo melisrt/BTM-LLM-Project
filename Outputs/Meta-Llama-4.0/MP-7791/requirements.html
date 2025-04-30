@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP-7791 Requirements Table with Source Text</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        .table-container {
+            margin: 20px 0;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background-color: #f4f4f4;
+            position: sticky;
+            top: 0;
+        }
+        .req-id {
+            font-weight: bold;
+            width: 80px;
+        }
+        .req-type {
+            width: 100px;
+        }
+        .source-text {
+            background-color: #f8f9fa;
+            padding: 8px;
+            border-left: 3px solid #007bff;
+            margin: 5px 0;
+            font-family: "Courier New", monospace;
+        }
+        h1 {
+            color: #333;
+        }
+        .req-source {
+            width: 130px;
+        }
+    </style>
+</head>
+<body>
+    <h1>MP-7791 Requirements Table with Source Text</h1>
+    
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th class="req-id">Req ID</th>
+                    <th class="req-type">Type</th>
+                    <th>Description</th>
+                    <th class="req-source">Source</th>
+                    <th>Exact Text from Specification</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="req-id">REQ-001</td>
+                    <td class="req-type">Functional</td>
+                    <td>The search functionality in the Recipients field should return results containing the keyword/phrase.</td>
+                    <td class="req-source">Acceptance Criteria</td>
+                    <td>
+                        <div class="source-text">
+                            "The search should return all records containing that word"
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="req-id">REQ-002</td>
+                    <td class="req-type">Functional</td>
+                    <td>The search results should be grouped by record type/main record.</td>
+                    <td class="req-source">TEST CASE 1</td>
+                    <td>
+                        <div class="source-text">
+                            "The list returns results containing the key word and groups them by record type/main record"
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="req-id">REQ-003</td>
+                    <td class="req-type">Functional</td>
+                    <td>Selected records should be added to the Recipients field.</td>
+                    <td class="req-source">TEST CASE 2</td>
+                    <td>
+                        <div class="source-text">
+                            "Selected records should be added to the Recipients fields"
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="req-id">REQ-004</td>
+                    <td class="req-type">Functional</td>
+                    <td>All records should be added to the Recipients field when the "Select all" option is chosen.</td>
+                    <td class="req-source">TEST CASE 3</td>
+                    <td>
+                        <div class="source-text">
+                            "All records should pull through to the Recipients field"
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="req-id">REQ-005</td>
+                    <td class="req-type">Functional</td>
+                    <td>The search functionality should return both matching groups and individual records.</td>
+                    <td class="req-source">Acceptance Criteria</td>
+                    <td>
+                        <div class="source-text">
+                            "The search results should return both matching groups (i.e. for 'East': all Tenants under Eastfield shopping centre) and any individuals (i.e. for 'East' (e.g.) Eastman Estate Agents)"
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
